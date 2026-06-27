@@ -1,0 +1,20 @@
+# perseng-cli 扩展层 — 在 Multica backend 镜像上添加 Node.js + perseng
+ARG MULTICA_BACKEND_IMAGE=ghcr.io/multica-ai/multica-backend
+ARG MULTICA_IMAGE_TAG=latest
+
+FROM ${MULTICA_BACKEND_IMAGE}:${MULTICA_IMAGE_TAG}
+
+# 只在需要安装 Node.js / perseng 时临时提权到 root
+USER root
+
+# 安装 Node.js 20 + npm
+RUN apk add --no-cache nodejs npm
+
+# 安装 perseng-cli
+COPY . /opt/perseng-cli
+RUN cd /opt/perseng-cli && npm install && npm install -g . && rm -rf /opt/perseng-cli
+
+# 恢复原有 USER（如果镜像指定了非 root 用户）
+# 实际 entrypoint.sh 会处理运行身份
+
+ENV MULTICA_PERSENG_PATH=/usr/bin/perseng

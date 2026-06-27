@@ -1,0 +1,184 @@
+{
+  "currentState": "initial",
+  "stateHistory": [
+    {
+      "from": "initial",
+      "command": "recall",
+      "timestamp": "2026-05-26T23:05:04.407Z",
+      "args": [
+        {
+          "query": null
+        }
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2026-05-26T23:06:15.570Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-05-26T23:06:37.673Z",
+      "args": [
+        "dayu",
+        "all"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-05-26T23:06:37.877Z",
+      "args": [
+        "jiangziya",
+        "all"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-05-26T23:06:37.944Z",
+      "args": [
+        "luban",
+        "all"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-05-26T23:06:38.006Z",
+      "args": [
+        "sean",
+        "all"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-05-26T23:06:38.065Z",
+      "args": [
+        "shaqing",
+        "all"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-05-26T23:06:38.123Z",
+      "args": [
+        "teacheryo",
+        "all"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-05-26T23:06:38.183Z",
+      "args": [
+        "writer",
+        "all"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2026-05-27T06:14:38.915Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "recall",
+      "timestamp": "2026-05-27T06:15:49.282Z",
+      "args": [
+        {
+          "query": null
+        }
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2026-05-27T06:34:39.677Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "project",
+      "timestamp": "2026-05-27T06:50:41.912Z",
+      "args": [
+        {
+          "workingDirectory": "C:\\A股赛道轮动捕手"
+        }
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2026-05-27T06:54:06.109Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-05-27T08:54:15.112Z",
+      "args": [
+        "swing-trader",
+        null
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2026-05-27T08:54:17.243Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-05-27T08:54:30.438Z",
+      "args": [
+        "swing-trader",
+        null
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2026-05-27T08:54:41.016Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-05-27T08:56:12.690Z",
+      "args": [
+        "swing-trader",
+        null
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2026-05-27T08:56:12.742Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2026-05-27T08:56:21.561Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "project",
+      "timestamp": "2026-05-27T09:01:55.112Z",
+      "args": [
+        {
+          "workingDirectory": "C:\\Swing-Trader"
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2026-05-27T09:01:55.116Z"
+}

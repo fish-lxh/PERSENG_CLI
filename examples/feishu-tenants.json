@@ -1,0 +1,20 @@
+[
+  {
+    "name": "team-a",
+    "appId": "cli_xxxxxxxxxxxxxxxx",
+    "appSecret": "xxxxxxxxxxxxxxxxxxxxxxxx",
+    "role": "jiangziya",
+    "model": "claude-sonnet-4-20250514",
+    "allowUsers": ["u1", "u2"],
+    "allowGroups": ["oc_team_a_group"]
+  },
+  {
+    "name": "team-b",
+    "appId": "cli_yyyyyyyyyyyyyyyy",
+    "appSecret": "yyyyyyyyyyyyyyyyyyyyyyyy",
+    "role": "shenxiaobao",
+    "model": "claude-sonnet-4-20250514",
+    "allowUsers": [],
+    "allowGroups": ["oc_team_b_group"]
+  }
+]

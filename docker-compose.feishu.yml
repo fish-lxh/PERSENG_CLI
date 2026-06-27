@@ -1,0 +1,59 @@
+# ─── PersEng Feishu — docker-compose ─────────────────────────
+#
+# 用法：
+#   1. 准备 .env（参考 .env.example）：
+#        FEISHU_APP_ID=cli_xxxxxxxx
+#        FEISHU_APP_SECRET=xxxxxxxx
+#        ANTHROPIC_API_KEY=sk-ant-xxxxxxxx
+#   2. 启动：
+#        docker compose -f docker-compose.feishu.yml up -d
+#   3. 看日志：
+#        docker compose -f docker-compose.feishu.yml logs -f
+#   4. 停止：
+#        docker compose -f docker-compose.feishu.yml down
+
+services:
+  feishu:
+    build:
+      context: .
+      dockerfile: Dockerfile.feishu
+    image: perseng-feishu:latest
+    container_name: perseng-feishu
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      # 数据目录写到卷里（容器内 /data 持久化）
+      HOME: /data
+      PERSENG_CLI_COGNITION_DIR: /data/cognition
+      NODE_ENV: production
+      # 可覆盖角色
+      # PERSENG_ROLE: jiangziya
+    volumes:
+      - perseng-data:/data
+    # 资源限制（防止内存泄漏拖垮宿主机；与 systemd 的 MemoryMax 对齐）
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+        reservations:
+          memory: 128M
+    # 网络：飞书 WebSocket 主动出连即可，不需要端口映射
+    # 如果要 host 网络（低延迟）：network_mode: host
+    # 加固
+    security_opt:
+      - no-new-privileges:true
+    read_only: false  # /data 需要写
+    tmpfs:
+      - /tmp:size=64M,mode=1777
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+        tag: "perseng-feishu"
+
+volumes:
+  perseng-data:
+    name: perseng-feishu-data
+    driver: local

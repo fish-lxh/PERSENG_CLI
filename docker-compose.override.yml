@@ -1,0 +1,23 @@
+# docker-compose.override.yml
+# 与 docker-compose.selfhost.yml 一起使用，将 perseng 注入 backend 容器
+#
+# 用法:
+#   docker compose -f docker-compose.selfhost.yml -f docker-compose.override.yml up -d
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.perseng
+      args:
+        MULTICA_BACKEND_IMAGE: ${MULTICA_BACKEND_IMAGE:-ghcr.io/multica-ai/multica-backend}
+        MULTICA_IMAGE_TAG: ${MULTICA_IMAGE_TAG:-latest}
+    image: multica-backend-with-perseng:latest
+    environment:
+      # Multica 自动发现 perseng 二进制
+      MULTICA_PERSENG_PATH: /usr/bin/perseng
+      # API Key（二选一）
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      # OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      # 默认角色
+      PERSENG_ROLE: ${PERSENG_ROLE:-jiangziya}

@@ -1,0 +1,53 @@
+[Unit]
+Description=PersEng WebUI (HTTP + WebSocket + Static)
+Documentation=https://github.com/perseng-ai/perseng-cli/blob/main/docs/deploy-cloud-server.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=perseng
+Group=perseng
+
+# 工作目录：与 perseng-feishu.service 一致
+WorkingDirectory=/opt/perseng-cli
+
+# 凭据：复用 /etc/perseng-cli/.env
+EnvironmentFile=/etc/perseng-cli/.env
+
+# WebUI 监听端口（默认 7717，与现有 serve-http 一致）
+Environment=PERSENG_HTTP_PORT=7717
+Environment=PERSENG_HTTP_HOST=127.0.0.1
+
+# 启动命令
+ExecStart=/usr/bin/env node bin/perseng.js serve-http
+
+# 重启策略
+Restart=on-failure
+RestartSec=10
+StartLimitIntervalSec=120
+StartLimitBurst=5
+
+# 资源限制
+MemoryMax=512M
+TasksMax=64
+
+# 日志
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=perseng-web
+
+# 优雅关闭
+TimeoutStopSec=30
+KillMode=mixed
+KillSignal=SIGTERM
+
+# 加固
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/var/lib/perseng-cli
+
+[Install]
+WantedBy=multi-user.target

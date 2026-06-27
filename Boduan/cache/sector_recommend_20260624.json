@@ -1,0 +1,190 @@
+{
+  "timestamp": "2026-06-24 17:09:55",
+  "total_sectors_scored": 373,
+  "recommendations": [
+    {
+      "name": "培育钻石",
+      "score": 10,
+      "rating": "watch",
+      "rating_label": "⭐⭐观察赛道",
+      "latest_pct": -1.4875572013548721
+    },
+    {
+      "name": "重组蛋白",
+      "score": 9,
+      "rating": "watch",
+      "rating_label": "⭐⭐观察赛道",
+      "latest_pct": 4.529755598636087
+    },
+    {
+      "name": "细胞免疫治疗",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 3.1647586095693736
+    },
+    {
+      "name": "猴痘概念",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.7029847890319925
+    },
+    {
+      "name": "氟化工概念",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -0.30936830521387515
+    },
+    {
+      "name": "国家大基金持股",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -1.13421720758895
+    },
+    {
+      "name": "磷化工",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -1.4803243323662896
+    },
+    {
+      "name": "先进封装",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -2.1924795411265574
+    },
+    {
+      "name": "仿制药一致性评价",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 3.3850395474056993
+    },
+    {
+      "name": "创新药",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 3.0388934169197412
+    },
+    {
+      "name": "维生素",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.959397691083465
+    },
+    {
+      "name": "肝炎概念",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.852703346115648
+    },
+    {
+      "name": "流感",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.8451824450333563
+    },
+    {
+      "name": "辅助生殖",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.7646733982096716
+    },
+    {
+      "name": "阿尔茨海默概念",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.5253983694443205
+    },
+    {
+      "name": "牙科医疗",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.3983473459496354
+    },
+    {
+      "name": "染料",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.8168295425062588
+    },
+    {
+      "name": "光刻胶",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.576478331818242
+    },
+    {
+      "name": "期货概念",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.3133559477124903
+    },
+    {
+      "name": "语音技术",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.14892816848439683
+    }
+  ],
+  "scan_sectors": [
+    "东数西算(算力)",
+    "机器人概念",
+    "人工智能",
+    "存储芯片",
+    "第三代半导体",
+    "低空经济",
+    "新能源汽车",
+    "军工",
+    "储能",
+    "消费电子概念",
+    "AI应用",
+    "DeepSeek概念",
+    "培育钻石",
+    "重组蛋白",
+    "细胞免疫治疗",
+    "猴痘概念",
+    "氟化工概念",
+    "国家大基金持股",
+    "磷化工",
+    "先进封装"
+  ],
+  "ths_scan_sectors": [
+    "东数西算(算力)",
+    "机器人概念",
+    "人工智能",
+    "存储芯片",
+    "第三代半导体",
+    "低空经济",
+    "新能源汽车",
+    "军工",
+    "储能",
+    "消费电子概念",
+    "AI应用",
+    "DeepSeek概念",
+    "培育钻石",
+    "重组蛋白",
+    "细胞免疫治疗",
+    "猴痘概念",
+    "氟化工概念",
+    "国家大基金持股",
+    "磷化工",
+    "先进封装"
+  ]
+}

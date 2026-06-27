@@ -1,0 +1,190 @@
+{
+  "timestamp": "2026-06-22 17:15:05",
+  "total_sectors_scored": 373,
+  "recommendations": [
+    {
+      "name": "国家大基金持股",
+      "score": 10,
+      "rating": "watch",
+      "rating_label": "⭐⭐观察赛道",
+      "latest_pct": 2.35673989301306
+    },
+    {
+      "name": "PCB概念",
+      "score": 9,
+      "rating": "watch",
+      "rating_label": "⭐⭐观察赛道",
+      "latest_pct": 1.4187954275654446
+    },
+    {
+      "name": "中芯国际概念",
+      "score": 9,
+      "rating": "watch",
+      "rating_label": "⭐⭐观察赛道",
+      "latest_pct": 1.0588691257589655
+    },
+    {
+      "name": "科创次新股",
+      "score": 8,
+      "rating": "watch",
+      "rating_label": "⭐⭐观察赛道",
+      "latest_pct": 2.822109189231803
+    },
+    {
+      "name": "共封装光学(CPO)",
+      "score": 8,
+      "rating": "watch",
+      "rating_label": "⭐⭐观察赛道",
+      "latest_pct": 2.1397888218411376
+    },
+    {
+      "name": "华为手机",
+      "score": 8,
+      "rating": "watch",
+      "rating_label": "⭐⭐观察赛道",
+      "latest_pct": 0.977212665170768
+    },
+    {
+      "name": "AI手机",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.103033861978476
+    },
+    {
+      "name": "存储芯片",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.835390467695075
+    },
+    {
+      "name": "华为海思概念股",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.732235661730308
+    },
+    {
+      "name": "先进封装",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.6828917571276358
+    },
+    {
+      "name": "汽车芯片",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.5006518381577072
+    },
+    {
+      "name": "富士康概念",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.4370301131478858
+    },
+    {
+      "name": "第三代半导体",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.3376209183109555
+    },
+    {
+      "name": "光刻机",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.1069648681601985
+    },
+    {
+      "name": "光纤概念",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.9095830543848216
+    },
+    {
+      "name": "PET铜箔",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.3622210858128305
+    },
+    {
+      "name": "光刻胶",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.3511408464951016
+    },
+    {
+      "name": "MiniLED",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.29701717935548544
+    },
+    {
+      "name": "柔性屏(折叠屏)",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.10769254499052305
+    },
+    {
+      "name": "OLED",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -0.5576176137008892
+    }
+  ],
+  "scan_sectors": [
+    "存储芯片",
+    "汽车芯片",
+    "第三代半导体",
+    "东数西算(算力)",
+    "机器人概念",
+    "人工智能",
+    "低空经济",
+    "新能源汽车",
+    "军工",
+    "储能",
+    "消费电子概念",
+    "AI应用",
+    "DeepSeek概念",
+    "国家大基金持股",
+    "PCB概念",
+    "中芯国际概念",
+    "科创次新股",
+    "共封装光学(CPO)",
+    "华为手机",
+    "AI手机"
+  ],
+  "ths_scan_sectors": [
+    "存储芯片",
+    "汽车芯片",
+    "第三代半导体",
+    "东数西算(算力)",
+    "机器人概念",
+    "人工智能",
+    "低空经济",
+    "新能源汽车",
+    "军工",
+    "储能",
+    "消费电子概念",
+    "AI应用",
+    "DeepSeek概念",
+    "国家大基金持股",
+    "PCB概念",
+    "中芯国际概念",
+    "科创次新股",
+    "共封装光学(CPO)",
+    "华为手机",
+    "AI手机"
+  ]
+}

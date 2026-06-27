@@ -1,0 +1,83 @@
+# ─── PersEng Feishu Bot — Dockerfile ──────────────────────────
+# 多阶段构建：build（含原生模块编译）→ runtime（仅运行时依赖）
+#
+# 构建：
+#   docker build -f Dockerfile.feishu -t perseng-feishu:latest .
+# 运行：
+#   docker run --rm --env-file .env perseng-feishu:latest
+# 或 docker-compose（见 docker-compose.feishu.yml）
+
+# ─── Stage 1: deps builder ──────────────────────────────────
+FROM node:20-slim AS deps
+
+# better-sqlite3 需要 python + make + g++ 编译原生模块
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3 \
+    make \
+    g++ \
+    ca-certificates \
+  && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# 单独装依赖（利用层缓存）
+COPY package.json package-lock.json* ./
+# ci 需要 lockfile；lockfile 缺失时降级到 install
+RUN if [ -f package-lock.json ]; then \
+      npm ci --omit=dev; \
+    else \
+      npm install --omit=dev; \
+    fi
+
+# ─── Stage 2: runtime ──────────────────────────────────────
+FROM node:20-slim AS runtime
+
+# 最小化运行时：仅保留 ca-certificates（飞书 HTTPS 需要）
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates \
+    tini \
+  && rm -rf /var/lib/apt/lists/* \
+  && useradd --system --uid 1001 --home /app --shell /usr/sbin/nologin perseng
+
+WORKDIR /app
+
+# 从 deps 阶段拷贝 node_modules
+COPY --from=deps /app/node_modules ./node_modules
+
+# 应用代码
+COPY package.json ./
+COPY bin ./bin
+COPY src ./src
+COPY roles ./roles
+
+# 数据目录：~/.perseng-cli 通过环境变量重定向到 /data
+ENV HOME=/data \
+    NODE_ENV=production \
+    PERSENG_CLI_COGNITION_DIR=/data/cognition \
+    NODE_OPTIONS="--enable-source-maps" \
+    NPM_CONFIG_UPDATE_NOTIFIER=false
+
+# 数据卷：cognition / sessions / config
+RUN mkdir -p /data/cognition && chown -R perseng:perseng /data
+VOLUME ["/data"]
+WORKDIR /app
+USER perseng
+
+# tini 收 zombie / 转发信号（飞书需要 SIGINT/SIGTERM 优雅退出）
+ENTRYPOINT ["/usr/bin/tini", "--"]
+
+# 默认角色通过 PERSENG_ROLE 控制；容器启动时直接进入飞书模式
+CMD ["node", "bin/perseng.js", "feishu"]
+
+# ─── 健康检查 ─────────────────────────────────────────────
+# 飞书 WebSocket 是常驻连接；用 lark API 探活。简单方案：每 60s 跑一次；
+# lark SDK 不暴露 ping 端点，因此用进程内检查（每 60s 日志一行即可）
+# 这里留作占位：可接入 docker healthcheck.sh
+HEALTHCHECK --interval=60s --timeout=10s --start-period=30s --retries=3 \
+  CMD node -e "process.exit(0)" || exit 1
+
+# ─── 标签 ───────────────────────────────────────────────
+LABEL org.opencontainers.image.title="perseng-feishu" \
+      org.opencontainers.image.description="PersEng CLI — Feishu bot (WebSocket long-link)" \
+      org.opencontainers.image.licenses="MIT" \
+      org.opencontainers.image.source="https://github.com/perseng-ai/perseng-cli"

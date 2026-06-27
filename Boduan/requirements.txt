@@ -1,0 +1,18 @@
+# Swing-Trader 数据源依赖
+# 安装方式: pip install -r requirements.txt
+
+# 核心数据源
+akshare>=1.14.0              # A股实时数据（板块排行、龙虎榜、大宗交易）
+baostock>=0.8.0              # A股历史K线 + 财务数据（免费、稳定）
+
+# Web请求（特特股数据抓取）
+requests>=2.28.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# 数据分析
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 工具
+python-dateutil>=2.8.0

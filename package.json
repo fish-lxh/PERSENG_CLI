@@ -1,0 +1,80 @@
+{
+  "name": "perseng-cli",
+  "version": "1.0.0",
+  "description": "PersEng CLI Agent - 带角色生态的智能代理，可被 Multica 管理",
+  "type": "module",
+  "bin": {
+    "perseng": "./bin/perseng.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "roles/"
+  ],
+  "scripts": {
+    "start": "node bin/perseng.js",
+    "dev": "node bin/perseng.js",
+    "test": "node --test",
+    "clean": "node -e \"const { rmSync } = require('fs'); const path = require('path'); const dir = path.join(require('os').homedir(), '.perseng-cli'); rmSync(dir, { recursive: true, force: true }); console.log('cleaned');\""
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "@larksuiteoapi/node-sdk": "^1.66.0",
+    "@promptx/core": "^2.2.1",
+    "better-sqlite3": "^11.0.0",
+    "commander": "^12.0.0",
+    "cron-parser": "^4.9.0",
+    "openai": "^4.104.0",
+    "pino": "^9.14.0",
+    "ws": "^8.21.0"
+  },
+  "optionalDependencies": {
+    "sql.js": "^1.10.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "cli",
+    "anthropic",
+    "claude",
+    "openai",
+    "moonshot",
+    "deepseek",
+    "larksuite",
+    "feishu",
+    "multica",
+    "perseng",
+    "role-based",
+    "tool-use",
+    "function-calling",
+    "ndjson",
+    "websocket",
+    "mcp-compatible"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/perseng-ai/perseng-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perseng-ai/perseng-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/perseng-ai/perseng-cli/issues",
+    "email": "support@perseng.ai"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/perseng"
+  },
+  "author": {
+    "name": "PersEng Contributors",
+    "email": "support@perseng.ai",
+    "url": "https://github.com/perseng-ai"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "timestamp": "2026-06-02 19:28:17",
+  "total_sectors_scored": 375,
+  "recommendations": [
+    {
+      "name": "煤炭概念",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 4.057060368337773
+    },
+    {
+      "name": "培育钻石",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -1.4135890044403854
+    },
+    {
+      "name": "免税店",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.0831926468781727
+    },
+    {
+      "name": "超级电容",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.44856193480642403
+    },
+    {
+      "name": "预制菜",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.5938575796530694
+    },
+    {
+      "name": "超超临界发电",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.006408011823102
+    },
+    {
+      "name": "高股息精选",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.6787019103135403
+    },
+    {
+      "name": "小红书概念",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -2.2907393005528687
+    },
+    {
+      "name": "养鸡",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 3.9149726712866206
+    },
+    {
+      "name": "拼多多概念",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 3.3968866933898667
+    },
+    {
+      "name": "网红经济",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.9597119371379987
+    },
+    {
+      "name": "广东自贸区",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.6213865303938544
+    },
+    {
+      "name": "乳业",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.1274244569938094
+    },
+    {
+      "name": "生物质能发电",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.7462922736326325
+    },
+    {
+      "name": "碳交易",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.728427970760893
+    },
+    {
+      "name": "超级品牌",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.33368952003616226
+    },
+    {
+      "name": "租售同权",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -1.6946801517372045
+    }
+  ],
+  "scan_sectors": [
+    "东数西算(算力)",
+    "机器人概念",
+    "人工智能",
+    "存储芯片",
+    "第三代半导体",
+    "低空经济",
+    "新能源汽车",
+    "军工",
+    "储能",
+    "消费电子概念",
+    "AI应用",
+    "DeepSeek概念",
+    "煤炭概念",
+    "培育钻石",
+    "免税店",
+    "超级电容",
+    "预制菜",
+    "超超临界发电",
+    "高股息精选",
+    "小红书概念"
+  ],
+  "ths_scan_sectors": [
+    "东数西算(算力)",
+    "机器人概念",
+    "人工智能",
+    "存储芯片",
+    "第三代半导体",
+    "低空经济",
+    "新能源汽车",
+    "军工",
+    "储能",
+    "消费电子概念",
+    "AI应用",
+    "DeepSeek概念",
+    "煤炭概念",
+    "培育钻石",
+    "免税店",
+    "超级电容",
+    "预制菜",
+    "超超临界发电",
+    "高股息精选",
+    "小红书概念"
+  ]
+}

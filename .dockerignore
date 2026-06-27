@@ -1,0 +1,45 @@
+# ─── .dockerignore — 排除不需要进镜像的文件 ──────────────
+
+# 依赖和构建产物
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 测试和文档（不进生产镜像）
+test
+docs
+AUDIT-REPORT.md
+*.test.js
+test-results
+coverage
+.nyc_output
+
+# 凭据和配置
+.env
+.env.local
+.env.*.local
+secrets
+*.pem
+*.key
+
+# 仓库元数据
+.git
+.gitignore
+.github
+.gitlab-ci.yml
+.idea
+.vscode
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log
+logs
+
+# Docker 自身（避免递归）
+Dockerfile*
+docker-compose*.yml
+.dockerignore

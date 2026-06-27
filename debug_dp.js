@@ -1,0 +1,11 @@
+import { getCognitionDir, getRolexDir, resetDataPaths } from './src/data-paths.js';
+import { homedir } from 'os';
+resetDataPaths();
+const cog = getCognitionDir();
+const home = homedir();
+const hasBackslash = cog.includes('\');
+const expectedSuffix = '.perseng-cli' + (hasBackslash ? '\' : '/') + 'cognition';
+console.log('homedir():', home);
+console.log('getCognitionDir():', cog);
+console.log('expected suffix:', expectedSuffix);
+console.log('endsWith expected?', cog.endsWith(expectedSuffix));

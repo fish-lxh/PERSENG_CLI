@@ -1,0 +1,23 @@
+[
+  {
+    "name": "morning_briefing",
+    "cron": "0 9 * * 1-5",
+    "chatId": "oc_xxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "prompt": "请生成今日工作简报（基于近期对话记忆）",
+    "role": "jiangziya"
+  },
+  {
+    "name": "evening_summary",
+    "cron": "0 18 * * 1-5",
+    "chatId": "oc_xxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "prompt": "请总结今天的工作进展，列出 3 条关键事项",
+    "role": "jiangziya"
+  },
+  {
+    "name": "weekly_report",
+    "cron": "0 10 * * 1",
+    "chatId": "oc_xxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "prompt": "请生成上周周报",
+    "role": "jiangziya"
+  }
+]

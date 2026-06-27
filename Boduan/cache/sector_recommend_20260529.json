@@ -1,0 +1,134 @@
+{
+  "timestamp": "2026-05-29 17:23:52",
+  "total_sectors_scored": 372,
+  "recommendations": [
+    {
+      "name": "培育钻石",
+      "score": 9,
+      "rating": "watch",
+      "rating_label": "⭐⭐观察赛道",
+      "latest_pct": 6.622800598604317
+    },
+    {
+      "name": "国家大基金持股",
+      "score": 8,
+      "rating": "watch",
+      "rating_label": "⭐⭐观察赛道",
+      "latest_pct": 3.1406977093811905
+    },
+    {
+      "name": "先进封装",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.802675777722863
+    },
+    {
+      "name": "PCB概念",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 3.4693376191910374
+    },
+    {
+      "name": "MiniLED",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.6036066319317532
+    },
+    {
+      "name": "超级电容",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 4.678504264489147
+    },
+    {
+      "name": "PET铜箔",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 4.515958542807597
+    },
+    {
+      "name": "第三代半导体",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 3.199784725705035
+    },
+    {
+      "name": "OLED",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.740301474959428
+    },
+    {
+      "name": "稀土永磁",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.423721886111574
+    },
+    {
+      "name": "苹果概念",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.1992683052938
+    },
+    {
+      "name": "汽车芯片",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.183280685487521
+    }
+  ],
+  "scan_sectors": [
+    "第三代半导体",
+    "汽车芯片",
+    "东数西算(算力)",
+    "机器人概念",
+    "人工智能",
+    "低空经济",
+    "新能源汽车",
+    "军工",
+    "储能",
+    "消费电子概念",
+    "AI应用",
+    "DeepSeek概念",
+    "培育钻石",
+    "国家大基金持股",
+    "先进封装",
+    "PCB概念",
+    "MiniLED",
+    "超级电容",
+    "PET铜箔",
+    "OLED"
+  ],
+  "ths_scan_sectors": [
+    "第三代半导体",
+    "汽车芯片",
+    "东数西算(算力)",
+    "机器人概念",
+    "人工智能",
+    "低空经济",
+    "新能源汽车",
+    "军工",
+    "储能",
+    "消费电子概念",
+    "AI应用",
+    "DeepSeek概念",
+    "培育钻石",
+    "国家大基金持股",
+    "先进封装",
+    "PCB概念",
+    "MiniLED",
+    "超级电容",
+    "PET铜箔",
+    "OLED"
+  ]
+}

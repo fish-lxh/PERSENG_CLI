@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-05-28 17:13:39",
+  "total_sectors_scored": 375,
+  "recommendations": [
+    {
+      "name": "同花顺果指数",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.03828231831595197
+    },
+    {
+      "name": "国家大基金持股",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -1.3393952211118498
+    },
+    {
+      "name": "先进封装",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -1.339697308772958
+    },
+    {
+      "name": "培育钻石",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -3.198166954240178
+    },
+    {
+      "name": "MiniLED",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -0.9334633147480842
+    }
+  ],
+  "scan_sectors": [
+    "东数西算(算力)",
+    "机器人概念",
+    "人工智能",
+    "存储芯片",
+    "第三代半导体",
+    "低空经济",
+    "新能源汽车",
+    "军工",
+    "储能",
+    "消费电子概念",
+    "AI应用",
+    "DeepSeek概念",
+    "同花顺果指数",
+    "国家大基金持股",
+    "先进封装",
+    "培育钻石",
+    "MiniLED"
+  ],
+  "ths_scan_sectors": [
+    "东数西算(算力)",
+    "机器人概念",
+    "人工智能",
+    "存储芯片",
+    "第三代半导体",
+    "低空经济",
+    "新能源汽车",
+    "军工",
+    "储能",
+    "消费电子概念",
+    "AI应用",
+    "DeepSeek概念",
+    "同花顺果指数",
+    "国家大基金持股",
+    "先进封装",
+    "培育钻石",
+    "MiniLED"
+  ]
+}

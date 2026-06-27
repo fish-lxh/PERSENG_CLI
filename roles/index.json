@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "description": "PersEng CLI 角色注册表",
+  "roles": [
+    {
+      "id": "jiangziya",
+      "name": "姜子牙",
+      "description": "领导代理/战略分析 — 辅佐者心态、战略大局观、识人用人、哲学思辨",
+      "type": "v2",
+      "routes_to": ["claude-code", "codex", "openclaw", "hermes"]
+    },
+    {
+      "id": "nuwa",
+      "name": "女娲",
+      "description": "角色创造者 — AI角色铸造师，设计并创造新的AI角色",
+      "type": "v2"
+    },
+    {
+      "id": "luban",
+      "name": "鲁班",
+      "description": "AI工具集成专家 — PersEng的工具铸造师，为AI创建和集成工具",
+      "type": "v2"
+    },
+    {
+      "id": "boduan",
+      "name": "波段猎手",
+      "description": "波段交易专家 — 趋势跟踪与动量交易，擅长捕捉市场波段机会",
+      "type": "v2"
+    },
+    {
+      "id": "rotation",
+      "name": "Sector Rotation Catcher",
+      "description": "行业轮动分析专家 — 追踪资金流向，捕捉板块轮动机会",
+      "type": "v2"
+    },
+    {
+      "id": "hr",
+      "name": "人力资源官",
+      "description": "AI团队人才架构师 — 懂角色、善匹配、建组织、促成长，让AI团队发挥最大效能",
+      "type": "v2"
+    }
+  ]
+}

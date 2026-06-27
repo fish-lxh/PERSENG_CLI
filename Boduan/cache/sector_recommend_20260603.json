@@ -1,0 +1,190 @@
+{
+  "timestamp": "2026-06-03 21:27:43",
+  "total_sectors_scored": 365,
+  "recommendations": [
+    {
+      "name": "培育钻石",
+      "score": 12,
+      "rating": "core",
+      "rating_label": "⭐⭐⭐核心赛道",
+      "latest_pct": 4.533210187046288
+    },
+    {
+      "name": "铜缆高速连接",
+      "score": 9,
+      "rating": "watch",
+      "rating_label": "⭐⭐观察赛道",
+      "latest_pct": 2.81332324896324
+    },
+    {
+      "name": "F5G概念",
+      "score": 9,
+      "rating": "watch",
+      "rating_label": "⭐⭐观察赛道",
+      "latest_pct": 2.4141772467546563
+    },
+    {
+      "name": "煤炭概念",
+      "score": 8,
+      "rating": "watch",
+      "rating_label": "⭐⭐观察赛道",
+      "latest_pct": 1.1454673282631056
+    },
+    {
+      "name": "共封装光学(CPO)",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.554250092432686
+    },
+    {
+      "name": "超级电容",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -0.33199669463660486
+    },
+    {
+      "name": "AI PC",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -1.2318908695766795
+    },
+    {
+      "name": "太赫兹",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.3549602262338043
+    },
+    {
+      "name": "光刻机",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.251600533307019
+    },
+    {
+      "name": "煤化工概念",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.293488158267885
+    },
+    {
+      "name": "电子纸",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.22209194105103
+    },
+    {
+      "name": "第三代半导体",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.1246553169870452
+    },
+    {
+      "name": "苹果概念",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.925877556303579
+    },
+    {
+      "name": "PET铜箔",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.7545502086871769
+    },
+    {
+      "name": "页岩气",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.6140725184753837
+    },
+    {
+      "name": "石墨电极",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.5792283321036429
+    },
+    {
+      "name": "大豆",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.37365028587281746
+    },
+    {
+      "name": "富士康概念",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.37008389121955254
+    },
+    {
+      "name": "PCB概念",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.26353480983243305
+    },
+    {
+      "name": "天然气",
+      "score": 4,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.16160152117481452
+    }
+  ],
+  "scan_sectors": [
+    "第三代半导体",
+    "东数西算(算力)",
+    "机器人概念",
+    "人工智能",
+    "存储芯片",
+    "低空经济",
+    "新能源汽车",
+    "军工",
+    "储能",
+    "消费电子概念",
+    "AI应用",
+    "DeepSeek概念",
+    "培育钻石",
+    "铜缆高速连接",
+    "F5G概念",
+    "煤炭概念",
+    "共封装光学(CPO)",
+    "超级电容",
+    "AI PC",
+    "太赫兹"
+  ],
+  "ths_scan_sectors": [
+    "第三代半导体",
+    "东数西算(算力)",
+    "机器人概念",
+    "人工智能",
+    "存储芯片",
+    "低空经济",
+    "新能源汽车",
+    "军工",
+    "储能",
+    "消费电子概念",
+    "AI应用",
+    "DeepSeek概念",
+    "培育钻石",
+    "铜缆高速连接",
+    "F5G概念",
+    "煤炭概念",
+    "共封装光学(CPO)",
+    "超级电容",
+    "AI PC",
+    "太赫兹"
+  ]
+}

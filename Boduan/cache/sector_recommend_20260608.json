@@ -1,0 +1,190 @@
+{
+  "timestamp": "2026-06-08 17:12:39",
+  "total_sectors_scored": 372,
+  "recommendations": [
+    {
+      "name": "太赫兹",
+      "score": 9,
+      "rating": "watch",
+      "rating_label": "⭐⭐观察赛道",
+      "latest_pct": 3.360406968440244
+    },
+    {
+      "name": "减速器",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 3.270670285453958
+    },
+    {
+      "name": "光纤概念",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.03950654219229133
+    },
+    {
+      "name": "铜缆高速连接",
+      "score": 7,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -0.24670706833318512
+    },
+    {
+      "name": "新型工业化",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.213262489279577
+    },
+    {
+      "name": "工业母机",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.8176323390240112
+    },
+    {
+      "name": "柔性屏(折叠屏)",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.6819253407660995
+    },
+    {
+      "name": "电子纸",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.4918814465330046
+    },
+    {
+      "name": "光刻机",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.31245442343013075
+    },
+    {
+      "name": "中船系",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -1.1180691676672905
+    },
+    {
+      "name": "共封装光学(CPO)",
+      "score": 6,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -1.2622057220571747
+    },
+    {
+      "name": "军工信息化",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 2.179912963811259
+    },
+    {
+      "name": "石墨电极",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.9461687502313918
+    },
+    {
+      "name": "PEEK材料",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.756873958137084
+    },
+    {
+      "name": "6G概念",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.6607735479558627
+    },
+    {
+      "name": "有机硅概念",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 1.60545433333239
+    },
+    {
+      "name": "光刻胶",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.8784994476062957
+    },
+    {
+      "name": "稀土永磁",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": 0.5043974673213381
+    },
+    {
+      "name": "F5G概念",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -0.10730465665532707
+    },
+    {
+      "name": "PET铜箔",
+      "score": 5,
+      "rating": "candidate",
+      "rating_label": "⭐备选赛道",
+      "latest_pct": -0.12208200670593694
+    }
+  ],
+  "scan_sectors": [
+    "军工信息化",
+    "东数西算(算力)",
+    "机器人概念",
+    "人工智能",
+    "存储芯片",
+    "第三代半导体",
+    "低空经济",
+    "新能源汽车",
+    "储能",
+    "消费电子概念",
+    "AI应用",
+    "DeepSeek概念",
+    "太赫兹",
+    "减速器",
+    "光纤概念",
+    "铜缆高速连接",
+    "新型工业化",
+    "工业母机",
+    "柔性屏(折叠屏)",
+    "电子纸"
+  ],
+  "ths_scan_sectors": [
+    "军工信息化",
+    "东数西算(算力)",
+    "机器人概念",
+    "人工智能",
+    "存储芯片",
+    "第三代半导体",
+    "低空经济",
+    "新能源汽车",
+    "储能",
+    "消费电子概念",
+    "AI应用",
+    "DeepSeek概念",
+    "太赫兹",
+    "减速器",
+    "光纤概念",
+    "铜缆高速连接",
+    "新型工业化",
+    "工业母机",
+    "柔性屏(折叠屏)",
+    "电子纸"
+  ]
+}
