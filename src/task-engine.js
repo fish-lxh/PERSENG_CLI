@@ -642,14 +642,22 @@ export class TaskEngine {
         });
       }
 
+      // 过滤 <thinking>...</thinking> 标签内容
+      const cfg = getConfig();
+      const filterThinking = (text) => {
+        if (cfg.showThinking) return text;
+        return text.replace(/<thinking>[\s\S]*?<\/thinking>/gi, '');
+      };
+
       const { text, toolCalls, usage } = await llm.streamMessages({
         system,
         messages,
         tools: toolDefinitions,
         signal,
         onText: (chunk) => {
-          finalText += chunk;
-          if (onText) onText(chunk);
+          const filtered = filterThinking(chunk);
+          finalText += filtered;
+          if (onText) onText(filtered);
         },
       });
 

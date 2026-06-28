@@ -143,6 +143,14 @@ function buildDefaults() {
     maxMemoriesPerRole: Number(process.env.PERSENG_MAX_MEMORIES_PER_ROLE || 500),
     rolesCacheLimit: Number(process.env.PERSENG_ROLES_CACHE_LIMIT || 32),
 
+    // Web Search 配置
+    webSearchMaxResults: Math.min(Math.max(1, Number(process.env.PERSENG_WEB_SEARCH_MAX_RESULTS || 10)), 50),
+    webSearchTimeoutMs: Number(process.env.PERSENG_WEB_SEARCH_TIMEOUT_MS || 15000),
+    webSearchBackend: process.env.PERSENG_WEB_SEARCH_BACKEND || '',
+
+    // Thinking 输出控制
+    showThinking: parseBool(process.env.PERSENG_SHOW_THINKING, true),
+
     // 角色定义目录
     rolesDir: '', // 运行时计算
 

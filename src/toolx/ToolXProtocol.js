@@ -1525,18 +1525,21 @@ export class ToolXProtocol {
     }
 
     // 解析后端 + apiKey
-    const { backend: resolvedBackend, apiKey: envKey } = resolveBackendFromEnv(params.backend);
+    const globalCfg = getConfig();
+    const { backend: resolvedBackend, apiKey: envKey } = resolveBackendFromEnv(
+      params.backend || globalCfg.webSearchBackend
+    );
     const apiKey = params.apiKey || envKey;
 
-    // 合并 config 默认值
+    // 合并 config 默认值（优先级：参数 > toolx配置 > 环境变量 > 代码默认值）
     const cfg = this._configStore['tool://web-search'] || {};
     const searchOpts = {
       backend: resolvedBackend,
       apiKey,
-      maxResults: params.maxResults ?? cfg.maxResults,
+      maxResults: params.maxResults ?? cfg.maxResults ?? globalCfg.webSearchMaxResults,
       safesearch: params.safesearch ?? cfg.safesearch,
       category: params.category,
-      timeoutMs: params.timeoutMs ?? cfg.timeoutMs,
+      timeoutMs: params.timeoutMs ?? cfg.timeoutMs ?? globalCfg.webSearchTimeoutMs,
     };
 
     try {

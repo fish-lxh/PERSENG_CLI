@@ -60,13 +60,13 @@ export function Dashboard() {
             sessionItems.map((s) => (
               <div key={s.tabId} className="flex gap-3 text-slate-600">
                 <code className="text-xs bg-slate-100 px-1.5 py-0.5 rounded">{s.tabId.slice(0, 8)}</code>
-                  <span>·</span>
-                  <span>history={s.historyCount}</span>
-                  <span>·</span>
-                  <span className={isCurrent ? 'text-sky-700' : 'text-slate-400'}>
+                <span>·</span>
+                <span>history={s.historyCount}</span>
+                <span>·</span>
                 <span className="text-slate-400">last {new Date(s.lastActiveAt).toLocaleTimeString()}</span>
-              );
+              </div>
             ))
+          ) : (
             <div className="text-slate-400">暂无活跃会话</div>
           )}
         </div>

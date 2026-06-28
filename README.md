@@ -91,6 +91,24 @@ npx perseng feishu          # 启动 WS 长连接
 # 或 npx perseng feishu-register   # 扫码一键授权（无需手动创建应用）
 ```
 
+### 6. WebUI 聊天面板
+
+```bash
+# 启动 HTTP + WebSocket 服务（默认端口 7717）
+npx perseng serve-http
+
+# 开发模式：启动前端开发服务器（另开终端）
+cd webui && npm run dev
+# 访问 http://localhost:5173
+
+# 生产模式：先构建再启动
+cd webui && npm run build
+npx perseng serve-http
+# 访问 http://127.0.0.1:7717
+```
+
+完整指南：[docs/webui-guide.md](./docs/webui-guide.md)
+
 ---
 
 ## 🎭 内置角色（V2）
@@ -255,11 +273,13 @@ node --test test/feishu-adapter.test.js   # 单文件
 
 | 协议 | 文档 | 说明 |
 |---|---|---|
+| **启动指南** | [docs/start-guide.md](./docs/start-guide.md) | **按场景分类的启动命令：本地开发 / WebUI / 飞书单租户 / 飞书多租户 / Multica** |
 | Multica NDJSON over stdio | [docs/protocol.md](./docs/protocol.md) | v1 主协议 + Claude Code 兼容输出子集 |
 | 飞书 WebSocket | [docs/feishu-integration.md](./docs/feishu-integration.md) | 事件 / @ 判定 / Session 隔离 / 3 秒 ack / **回复去重** |
 | 飞书多租户 | [docs/feishu-multi-tenant.md](./docs/feishu-multi-tenant.md) | `feishu-multi` 改造评估 · 5 场景实施清单 · 规模-工作量对照 |
 | GBrain HTTP | [docs/gbrain-integration.md](./docs/gbrain-integration.md) | `search / think / capture` 三类能力、环境变量、自动注入链路与排障 |
 | ToolX Protocol | （代码 + `toolx` 子命令） | `tool:// URI` 抽象，6 模式 |
+| WebUI | [docs/webui-guide.md](./docs/webui-guide.md) | React + TypeScript 聊天面板，开发/生产双模式启动 |
 
 ---
 
